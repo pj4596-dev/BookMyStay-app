@@ -34,4 +34,7 @@ public class RoomInventory {
             System.out.println(entry.getKey() + " Available: " + entry.getValue());
         }
     }
+    public java.util.Map<String, Integer> getRoomAvailability() {
+        return inventory;
+}
 }
